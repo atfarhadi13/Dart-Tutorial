@@ -99,5 +99,6 @@ class MacBook extends Laptop {
 }
 
 void main() {
+  // ignore: unused_local_variable
   var macbook = MacBook();
 }
