@@ -17,7 +17,7 @@ void main() {
   // // get last modified time
   // print('Last modified: ${file.lastModifiedSync()}');
 
-  File file = new File('test.txt');
+  File file = new File('test1.txt');
   // read only first 10 characters
   String contents = file.readAsStringSync().substring(0, 10);
   // print file
